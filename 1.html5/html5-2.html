@@ -7,6 +7,12 @@
     <title>first html</title>
 </head>
 <body>
+    <form action="" method="POST">
+        <h1 align="center">請輸入會員資料</h1>
+        <p align="center">姓名: <input type="text" name="name" id=""></p>
+        <p align="center">地址: <input type="text" name="address" id=""></p>
+        <p align="center"><input type="submit" value="送出"><input type="submit" value="重新輸入"></p>
+    </form>
     這是內文
    
     <!--這是註解，或用快捷鍵cmd+/-->
@@ -43,14 +49,76 @@
     <!-- ol>li{選項$}*4 (order list)-->
     <!-- type=1/A/a/I/i -->
     <ol type="i" start="5">
-        <li>選項1</li>
-        <li>選項2</li>
+        <a href="http://www.google.com"><li>選項1</li></a>
+        <li><a href="http://www.google.com">選項2</a></li>
         <li>選項3</li>
         <li>選項4</li>
     </ol>
     <a href="001.html">hyper link to 001</a>
-    <a href="002.html">hyper link to 002</a>
-    <a href="003.html">hyper link to 003</a>
+    <a href="002.html">hyper link to 002</a><br>
+    <a href="003.html">hyper link to 003</a><hr>
     <a href="http://www.google.com" target="_blank" title="Google">google</a>
-    </body>
+    <img src="images/cat.png" 
+    alt="貓咪" width="200px" height="400px">123</img>
+    <b>粗體</b><br>
+    <big>粗體2</big><br>
+    <strong></strong><br>
+    <i>斜體</i><br>
+    <small>小字</small><br>
+    <del>刪除線</del><br>
+    <mark>標記</mark><br>
+    <em>強調</em><br>
+    <u>底線</u><br>
+    <ins>插入</ins><br>
+    <span>假標籤</span><br>
+
+    <!-- table>tr*3>td{$}*4 -->
+    <table>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+            <td>04</td>            
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+            <td>04</td>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+            <td>04</td>
+        </tr>
+    </table>
+
+    <table>
+        <thead>
+            <tr align="center">
+                <td>01</td>
+                <td>02</td>
+                <td>03</td>
+                <td>04</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center" >
+                <td>01</td>
+                <td>02</td>
+                <td>03</td>
+                <td>04</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>01</td>
+                <td>02</td>
+                <td>03</td>
+                <td>04</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
 </html>
